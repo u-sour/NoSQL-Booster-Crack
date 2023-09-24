@@ -1,0 +1,33 @@
+{
+  "name": "nosql-booster-crack",
+  "version": "1.0.0",
+  "description": "this is a crack tool for nosql booster.",
+  "main": "./main.js",
+  "bin": "./main.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "build": "pkg .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sour.dev",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.5",
+    "nanospinner": "^1.1.0",
+    "shelljs": "^0.8.5"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js",
+    "assets": [
+      "node_modules/figlet/fonts/**/*",
+      "crack/**/*"
+    ],
+    "targets": [
+      "node14-macos-x64",
+      "node14-win-x64"
+    ],
+    "outputPath": "build"
+  }
+}
