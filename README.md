@@ -4,7 +4,7 @@ This is a simple tool for cracking **NOSQL Booster** application.
 
 📝Note : This project is for researching and studying about Node.js.
 
-# 👨‍💻Development
+# 👨‍💻 Development
 
 ### Project Setup
 
@@ -17,12 +17,12 @@ npm install
 npm start
 ```
 
+# 📦 Production
 ### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
-# 📦Production
 
 ## Requirements
 
