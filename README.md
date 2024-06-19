@@ -4,6 +4,9 @@ This is a simple tool for cracking **NOSQL Booster** application.
 
 📝Note : This project is for researching and studying about Node.js.
 
+# Warning
+This project is not maintained anymore. 
+
 # 👨‍💻 Development
 
 ### Project Setup
